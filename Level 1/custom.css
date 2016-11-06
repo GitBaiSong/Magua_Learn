@@ -1,0 +1,167 @@
+.ui.vertical.segment.my_header {
+    height: 700px;
+    background: url('images/banner3.png');
+    background-size:cover;;
+    background-repeat: no-repeat;
+    padding:40px 40px 40px 40px;
+}
+.ui.vertical.segment.my_header >.ui.center.aligned.header {
+
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.ui.vertical.segment.my_header >.ui.center.aligned.header > .sub.header{
+        font-size: 25px;
+}
+
+.ui.vertical.segment.my_header >.ui.center.aligned.header > .ui.red.circular.button {
+    width: 220px;
+    font-size: 20px;
+    position:absolute;
+    top:200%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.ui.horizontal.segments.my_fooder {
+    border-style: none none none none;
+}
+
+
+.ui.inverted.segment.card-view {
+    height: 220px;
+
+}
+
+.ui.vertical.basic.segment.my_content {
+    margin-bottom: 70px;
+}
+.ui.vertical.basic.segment.my_content > .ui.center.aligned.header {
+    font-size: 40px;
+    color: rgb(129, 129, 130);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ui.header.title {
+    margin-bottom: 100px;
+}
+
+
+.ui.inverted.red.basic.segment.people-say {
+    height: 450px;
+    position: relative;
+    background:url('images/people-say.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.ui.inverted.red.basic.segment.people-say > .ui.inverted.red.circular.button {
+    width: 200px;
+    background: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.ui.inverted.red.basic.segment.people-say > .ui.center.aligned.header {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top:15%;
+    transform:translate(-50%,-50%);
+}
+
+
+.ui.inverted.red.basic.segment.people-say > .ui.grid {
+    position: relative;
+    top:50%;
+    transform:translate(0%,-50%);
+}
+
+.ui.inverted.red.basic.segment.people-say > .ui.grid > .four.wide.column {
+    position: relative;
+}
+
+.ui.circular.inverted.segment {
+    background: url('images/profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    position: absolute;;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.ui.circular.inverted.segment > .ui.inverted.header {
+    position: absolute;
+    top:100%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 10px;
+}
+
+.icon.red.inverted.circular.star {
+    position: absolute;
+    top:100%;
+    left:100%;
+    transform: translate(-100%,-100%);
+}
+
+.ui.red.segment.column_1 {
+    border-style: solid none none none;
+}
+.ui.red.segment.column_1 > .ui.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ui.red.segment.column_2 {
+    border-style: solid none none none;
+    text-align: center;
+}
+
+.ui.red.segment.column_2 > .ui.link.list {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.ui.red.segment.column_3 {
+    border-style: solid none none none;
+    text-align: center;
+}
+
+.ui.red.segment.column_3 > .ui.link.list {
+    text-align: left;
+    display: inline-table;
+
+}
+
+.ui.red.segment.column_4 {
+    border-style: solid none none none;
+    text-align: center;
+}
+
+.ui.red.segment.column_4 > .ui.link.list {
+    text-align: left;
+    display: inline-block;
+}
+
+.ui.red.segment.column_2  > .ui.link.list > .item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ui.red.segment.column_3  > .ui.link.list > .item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
