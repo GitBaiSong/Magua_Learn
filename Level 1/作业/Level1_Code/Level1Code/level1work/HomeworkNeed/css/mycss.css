@@ -1,0 +1,91 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(0, 0, 0, 0.05)
+}
+
+.ui.inverted.top.fixed.menu.borderless.red.menu {
+    position: relative;
+}
+
+.ui.container {
+    position: relative;
+}
+
+.ui.vertical.basic.segment.my_menu {
+    position: relative;
+    height: 150px;
+}
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu > .item {
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu > .item:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu> .item:active {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.95);
+    font-weight: bolder;
+}
+
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu > .active.item {
+    background: rgba(0, 0, 0, 0);
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.6);
+    border: 0;
+}
+
+
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu > .active.item:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+.ui.vertical.basic.segment.my_menu > .ui.three.item.borderless.menu > .active.item:active {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.95);
+    font-weight: bolder;
+}
+
+
+.ui.card {
+     box-shadow: none;
+     position: relative;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     width: auto;
+}
+
+.ui.card > .image > img {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.ui.vertical.basic.segment.my_paging {
+    position: relative;
+    height: 100px;
+}
+.ui.vertical.basic.segment.my_paging > .ui.two.item.menu {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
