@@ -20,4 +20,5 @@ from firstapp.views import index, detail
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', index, name="index"),
+    url(r'^detail/(?P<id>\d+)/$', detail, name="detail"),
 ]

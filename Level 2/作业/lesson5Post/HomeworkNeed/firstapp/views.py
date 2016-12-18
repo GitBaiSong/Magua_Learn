@@ -13,20 +13,18 @@ def index(request):
     return render(request, 'index.html', context)
 
 def detail(request, id):
-    article = Article.objects.get(id=id)
-
+    article = Article.objects.get(id = id)
     if request.method == "GET":
-        form = CommentForm 
-
+        form = CommentForm
     if request.method == "POST":
         form = CommentForm(request.POST)
         if form.is_valid():
             name = form.cleaned_data["name"]
             comment = form.cleaned_data["comment"]
 
-            c = Comment(name=name, comment=comment, belong_to=article)
+            c = Comment(name = name, comment = comment, belong_to = article)
             c.save()
-            return redirect(to="detail", id=id)
+            return redirect(to = "detail", id= id)
 
     context = {}
     context["article"] = article
